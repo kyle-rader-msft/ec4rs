@@ -25,6 +25,10 @@ allow-empty-values = []
 [dependencies]
 language-tags = { version = "0.3.2", optional = true }
 
+[dev-dependencies]
+anyhow = "1.0.81"
+tempfile = "3.10.1"
+
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "doc_unstable"]
